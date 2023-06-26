@@ -1,0 +1,13 @@
+@use "../setting/breakpoint" as mx;
+
+@include mx.mq(pc) {
+  ._sp {
+    display: none;
+  }
+}
+
+@include mx.mq(sp) {
+  ._pc {
+    display: none;
+  }
+}
